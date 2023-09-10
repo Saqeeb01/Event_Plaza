@@ -1,0 +1,41 @@
+/* Home.css */
+
+.home-container {
+    background-color: #f8f9fa;
+  }
+  
+  .home-card {
+    border: none;
+    border-radius: 0;
+  }
+  
+  .btn-signup {
+    font-weight: bold;
+    border-radius: 30px;
+  }
+
+.featured-events-section {
+  background-image: url('');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0; /* Adjust as needed */
+}
+
+.event-categories-section {
+  background-image: url('');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0; /* Adjust as needed */
+}
+
+.featured-event-card {
+  height: 100%; /* Set the desired height */
+}
+
+.featured-event-card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  height: 100%; /* Ensure the card body takes the full height */
+}

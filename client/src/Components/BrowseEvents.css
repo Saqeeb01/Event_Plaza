@@ -1,0 +1,155 @@
+/* BrowseEvents.css */
+.browse-events-container {
+    padding: 2rem;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .event-card {
+    border: none;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .event-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .btn-learn-more {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .btn-learn-more:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-purchase {
+    background-color: #28a745;
+    border: none;
+  }
+  
+  .btn-purchase:hover {
+    background-color: #1d7c3a;
+  }
+
+  
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+
+  .purchase-button-container {
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .event-details {
+    padding: 20px;
+  }
+  
+  .event-date,
+  .event-location,
+  .event-description,
+  .event-type,
+  .event-price,
+  .event-capacity {
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the modal header and title (adjust as needed) */
+  .modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #d1d1d1;
+    padding: 15px;
+  }
+  
+  .modal-title {
+    font-size: 24px;
+  }
+  
+  /* Styling for the modal body (adjust as needed) */
+  .modal-body {
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  /* Styling for the modal footer (adjust as needed) */
+  .modal-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #d1d1d1;
+    padding: 15px;
+  }
+  
+  /* Styling for the close button (adjust as needed) */
+  .modal-footer button {
+    border: none;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .modal-footer button:hover {
+    background-color: #0056b3;
+  }
+
+  /* BrowseEvents.css */
+/* ... (existing styles) */
+
+.purchase-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .purchase-button {
+    width: 100%;
+  }
+  
+  /* Styling for the modal header and title (adjust as needed) */
+  .modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #d1d1d1;
+    padding: 15px;
+  }
+  
+  .modal-title {
+    font-size: 24px;
+  }
+  
+  /* Styling for the modal body (adjust as needed) */
+  .modal-body {
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  /* Styling for the modal footer (adjust as needed) */
+  .modal-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #d1d1d1;
+    padding: 15px;
+  }
+  
+  /* Styling for the close button (adjust as needed) */
+  .modal-footer button {
+    border: none;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .modal-footer button:hover {
+    background-color: #0056b3;
+  }
+  

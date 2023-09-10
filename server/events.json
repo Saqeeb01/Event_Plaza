@@ -1,0 +1,92 @@
+[
+  {
+    "eventName": "Art Exhibition",
+    "eventDate": "2023-10-10",
+    "eventLocation": "Gallery Spacee",
+    "eventDescription": "Explore a stunning collection of contemporary art.",
+    "eventType": "Art",
+    "ticketPrice": "15",
+    "eventCapacity": "200",
+    "id": "a029ea50-5be0-40e6-827d-03edb80fe5bc"
+  },
+  {
+    "eventName": "Food Festival",
+    "eventDate": "2023-09-25",
+    "eventLocation": "Downtown Square",
+    "eventDescription": "Indulge in delicious dishes from around the world.",
+    "eventType": "Food",
+    "ticketPrice": "10",
+    "eventCapacity": "500",
+    "id": "ff1980b2-6196-4f53-9e52-b81602d118c7"
+  },
+  {
+    "eventName": "Tech Conference",
+    "eventDate": "2023-11-05",
+    "eventLocation": "Convention Center",
+    "eventDescription": "Discover the latest advancements in technology.",
+    "eventType": "Technology",
+    "ticketPrice": "50",
+    "eventCapacity": "300",
+    "id": "a962e309-4773-41b6-9ee8-0d664f4cf3d5"
+  },
+  {
+    "eventName": "Fitness Workshop",
+    "eventDate": "2023-09-20",
+    "eventLocation": "Gym Fitness Center",
+    "eventDescription": "Get fit and learn new workout techniques.",
+    "eventType": "Fitness",
+    "ticketPrice": "5",
+    "eventCapacity": "50",
+    "id": "a0e04f35-22c8-47be-9e04-eecef22a196f"
+  },
+  {
+    "eventName": "Comedy Night",
+    "eventDate": "2023-10-18",
+    "eventLocation": "Comedy Club",
+    "eventDescription": "Laugh out loud with top stand-up comedians.",
+    "eventType": "Comedy",
+    "ticketPrice": "20",
+    "eventCapacity": "150",
+    "id": "6a48bf92-6d27-41e4-b6f0-02bde94cc7f1"
+  },
+  {
+    "eventName": "Fashion Show",
+    "eventDate": "2023-09-30",
+    "eventLocation": "Fashion Mall",
+    "eventDescription": "Experience the latest fashion trends on the runway.",
+    "eventType": "Fashion",
+    "ticketPrice": "30",
+    "eventCapacity": "300",
+    "id": "1219b8ea-e3d8-4f91-81d2-9b7212beb526"
+  },
+  {
+    "eventName": "Outdoor Adventure",
+    "eventDate": "2023-10-08",
+    "eventLocation": "Nature Park",
+    "eventDescription": "Embark on an exciting outdoor adventure with friends.",
+    "eventType": "Adventure",
+    "ticketPrice": "15",
+    "eventCapacity": "100",
+    "id": "58ef6224-23b5-4846-99c4-7b314a851bb5"
+  },
+  {
+    "eventName": "Cooking Workshop",
+    "eventDate": "2023-11-08",
+    "eventLocation": "Culinary School",
+    "eventDescription": "Learn to cook delicious meals with expert chefs.\n",
+    "eventType": "Cooking",
+    "ticketPrice": "25",
+    "eventCapacity": "40",
+    "id": "b3fdb67c-02ca-4b27-93ab-1f0fca114e7a"
+  },
+  {
+    "eventName": "Educational Seminar",
+    "eventDate": "2023-03-12",
+    "eventLocation": "University Auditorium",
+    "eventDescription": "Expand your knowledge on various subjects.",
+    "eventType": "Education",
+    "ticketPrice": "10",
+    "eventCapacity": "150",
+    "id": "131508db-0cd6-462c-88a1-18eef78317e1"
+  }
+]

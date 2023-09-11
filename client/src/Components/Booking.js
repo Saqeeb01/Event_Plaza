@@ -8,7 +8,7 @@ const Booking = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/ticket-sales")
+      .get("https://event-plaza.onrender.com/ticket-sales")
       .then((response) => {
         setPurchasedEvents(response.data);
       })
@@ -53,7 +53,7 @@ const Booking = () => {
 
     // Make an API call to delete the event data from the backend
     axios
-      .delete(`http://localhost:5000/remove-event/${eventName}`)
+      .delete(`https://event-plaza.onrender.com/remove-event/${eventName}`)
       .then((response) => {
         console.log(response.data.message);
       })

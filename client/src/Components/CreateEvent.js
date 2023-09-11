@@ -38,7 +38,7 @@ const CreateEvent = () => {
     }
 
     try {
-      const response = await fetch("http://localhost:5000/create-event", {
+      const response = await fetch("https://event-plaza.onrender.com/create-event", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

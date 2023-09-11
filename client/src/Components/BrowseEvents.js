@@ -21,7 +21,7 @@ const BrowseEvents = (props) => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/events")
+      .get("https://event-plaza.onrender.com/events")
       .then((response) => {
         setEvents(response.data);
       })
@@ -67,7 +67,7 @@ const BrowseEvents = (props) => {
       const bookingId = shortid.generate().slice(0, 6);
   
       const purchaseResponse = await axios.post(
-        "http://localhost:5000/purchase-ticket",
+        "https://event-plaza.onrender.com/purchase-ticket",
         {
           eventName: selectedEvent.eventName,
           location: selectedEvent.eventLocation,
@@ -85,7 +85,7 @@ const BrowseEvents = (props) => {
         setShowPurchaseForm(false);
   
         const ticketSaleResponse = await axios.post(
-          "http://localhost:5000/ticket-sales",
+          "https://event-plaza.onrender.com/ticket-sales",
           {
             eventName: selectedEvent.eventName,
             name,

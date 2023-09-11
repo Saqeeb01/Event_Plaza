@@ -18,8 +18,8 @@ const ManageEvents = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/events")
-      .then((response) => {
+    .get("https://event-plaza.onrender.com/events")
+    .then((response) => {
         setEvents(response.data);
       })
       .catch((error) => {
@@ -37,7 +37,7 @@ const ManageEvents = () => {
   const handleDeleteEvent = async (eventId) => {
     try {
       const response = await axios.delete(
-        `http://localhost:5000/delete-event/${eventId}`
+        `https://event-plaza.onrender.com/delete-event/${eventId}`
       );
 
       if (response.status === 200) {
@@ -68,7 +68,7 @@ const ManageEvents = () => {
   const handleSaveEdit = async () => {
     try {
       const response = await axios.put(
-        `http://localhost:5000/update-event/${editingEvent.id}`,
+        `https://event-plaza.onrender.com/update-event/${editingEvent.id}`,
         editedEvent
       );
 

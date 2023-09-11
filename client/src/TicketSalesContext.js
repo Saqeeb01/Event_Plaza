@@ -8,7 +8,7 @@ export function TicketSalesProvider({ children }) {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/ticket-sales") // Replace with your API endpoint
+      .get("https://event-plaza.onrender.com/ticket-sales") // Replace with your API endpoint
       .then((response) => {
         setTicketSales(response.data);
       })

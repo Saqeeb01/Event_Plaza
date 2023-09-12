@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Event_Plaza/static/css/main.ca21354b.css",
+    "main.js": "/Event_Plaza/static/js/main.a10488fd.js",
+    "index.html": "/Event_Plaza/index.html",
+    "main.ca21354b.css.map": "/Event_Plaza/static/css/main.ca21354b.css.map",
+    "main.a10488fd.js.map": "/Event_Plaza/static/js/main.a10488fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca21354b.css",
+    "static/js/main.a10488fd.js"
+  ]
+}

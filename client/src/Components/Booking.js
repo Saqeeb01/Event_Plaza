@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Container, Table, Button } from "react-bootstrap";
+import "./Booking.css"; // Create a CSS file for custom styles (optional)
 
 const Booking = () => {
   const [purchasedEvents, setPurchasedEvents] = useState([]);
@@ -58,31 +59,33 @@ const Booking = () => {
         console.log(response.data.message);
       })
       .catch((error) => {
-        console.error('Error removing event:', error);
+        console.error("Error removing event:", error);
       });
   };
 
   return (
     <Container className="mt-5" style={{ marginBottom: "40px" }}>
       <h2 className="text-center mb-4">Purchased Tickets</h2>
+      <div className="table-responsive">
       <Table striped bordered hover>
         <thead>
           <tr>
             <th>Event Name</th>
-            <th>Purchaser Name</th> {/* New column for purchaser's name */}
+            <th className="d-none d-sm-table-cell">Purchaser Name</th>
             <th>Total Tickets Sold</th>
             <th>Total Amount</th>
-            <th>Actions</th>
+            <th className="d-none d-sm-table-cell">Actions</th>
           </tr>
         </thead>
+
         <tbody>
           {purchasedEvents.map((event) => (
             <tr key={event.eventName}>
               <td>{event.eventName}</td>
-              <td>{event.name}</td> {/* Display purchaser's name */}
+              <td className="d-none d-sm-table-cell">{event.name}</td>
               <td>{parseInt(event.quantity, 10)}</td>
               <td>${event.totalPrice.toFixed(2)}</td>
-              <td>
+              <td className="d-none d-sm-table-cell">
                 {!eventCompleted[event.eventName] ? (
                   <>
                     <Button
@@ -100,8 +103,11 @@ const Booking = () => {
           ))}
         </tbody>
       </Table>
+      </div>
+
       <div className="text-center">
-        <strong>Total Amount Received:</strong> ${calculateTotalAmount().toFixed(2)}
+        <strong>Total Amount Received:</strong> $
+        {calculateTotalAmount().toFixed(2)}
       </div>
       <div className="text-center">
         <strong>Total Tickets Sold:</strong> {calculateTotalTicketsSold()}

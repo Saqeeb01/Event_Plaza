@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './Components/App';
 import { TicketSalesProvider } from "./TicketSalesContext";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const rootElement = document.getElementById('root');
 

@@ -1,15 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import App from './Components/App';
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter as Router } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import App from "./Components/App";
 import { TicketSalesProvider } from "./TicketSalesContext";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-const rootElement = document.getElementById('root');
+const rootElement = document.getElementById("root");
 
 ReactDOM.createRoot(rootElement).render(
   <Router>
-      <TicketSalesProvider>
+    <TicketSalesProvider>
       <App />
     </TicketSalesProvider>
   </Router>
